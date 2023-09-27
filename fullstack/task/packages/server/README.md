@@ -12,7 +12,7 @@ Follow the instructions from [yarn's website](https://classic.yarnpkg.com/lang/e
 
 ### 2. Install dependencies
 
-Run `yarn install` in the `server` directory.
+Run `yarn install`.
 
 ### 3. Install docker
 
@@ -24,12 +24,12 @@ Run `docker login`.
 
 ### 4. Create and start the database
 
-- If this is your first-time setup - run `yarn server db-create`. This will create (and overwrite!) a docker container for the database.
+- If this is your first-time setup - run `yarn server db-create` (from the root workspace `fullstack/task`). This will create (and overwrite!) a docker container for the database.
 - Otherwise, run the docker container that was created during the first-time setup.
 
 ### 5. Start the server
 
-Run `yarn server start` from the root package directoy.
+Run `yarn server start` from the root workspace.
 
 ## Updating database entities
 

@@ -31,7 +31,7 @@
             "executor": "nx:run-commands",
             "options": {
                 "cwd": "packages/server",
-                "command": "./scripts/db-create.sh"
+                "command": "sh ./scripts/db-create.sh"
             }
         },
         "migration": {
