@@ -14,6 +14,7 @@
         "vite-tsconfig-paths": "^4.0.7"
     },
     "devDependencies": {
+        "@babel/core": "7.23.0",
         "@dishboard/eslint-config": "1.0.0",
         "@dishboard/jest-config": "1.0.0",
         "@types/jest": "28.1.8",
