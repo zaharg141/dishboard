@@ -12,7 +12,7 @@ Your overall goal is to implement a GraphQL query that would return a list of ex
 
 - You will be working mainly in the `fullstack/task/packages/server/src/services/exchange-rate` file - the TODO comments will guide you in the right direction
 - You need to get the latest exchange rates from the website of the Czech National Bank. Finding where they are and how to get them is a part of the task
-- The exchange rates need to be cached **in the Postgres database**. Once you get them from the bank - you need to store the rates in the database. The cache should have a lifetime of 5 minutes, after which it should be invalidated and all future requests would once again get the data from the bank (and cache them again)
+- The exchange rates need to be cached **in the Postgres database**. Once you get them from the bank - you need to store the rates in the database. The cache should have a lifetime of 5 minutes, after which it should be invalidated and all future requests would once again get the data from the bank (and cache them again). During the cache lifetime, the rates must be read from the database.
 - The choice of technologies is mostly up to you, but you must use NestJS, GraphQL, TypeORM, and TypeScript.
 
 The `fullstack/task/packages/server/README.md` file will help you set up the dev environment.
